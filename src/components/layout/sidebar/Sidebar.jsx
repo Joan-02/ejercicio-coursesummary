@@ -1,5 +1,5 @@
-import { Tag } from "../tag/Tag";
-import { Nav } from "../nav/Nav";
+import { Tag } from "../../tag/Tag";
+import { Nav } from "../../nav/Nav";
 import "./Sidebar.css";
 
 export function Sidebar() {
