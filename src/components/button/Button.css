@@ -19,7 +19,7 @@
   cursor: pointer;
   transition: background-color 0.2s ease-in;
 
-  /* &:hover {
+  &:hover {
     background-color: hsla(213, 100%, 65%, 1);
     border-color: hsla(213, 100%, 65%, 1);
   }
@@ -29,10 +29,10 @@
     border-color: hsla(213, 92%, 41%, 1);
   }
 
-  &:disabled {
+  /* &:disabled {
     opacity: 0.2;
     cursor: not-allowed;
-  } */
+  }  */
 }
 
 .btn--secondary {
@@ -40,19 +40,19 @@
   background-color: var(--white);
   color: var(--light-blue);
 
-  /* &:hover {
-    border-color: var(--button-color-light);
-    color: var(--button-color-light);
+  &:hover {
+    border-color: hsla(213, 100%, 65%, 1);
+    color: hsla(213, 100%, 65%, 1);
     background-color: var(--color-white);
   }
 
   &:active {
-    border-color: var(--button-color-dark);
-    color: var(--button-color-dark);
+    border-color: hsla(213, 92%, 41%, 1);
+    color: hsla(213, 92%, 41%, 1);
   }
 
-  &:disabled {
+  /* &:disabled {
     opacity: 0.2;
     cursor: not-allowed;
-  } */
+  }  */
 }

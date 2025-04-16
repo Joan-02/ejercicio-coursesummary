@@ -2,20 +2,20 @@
   display: flex;
   align-items: center;
   background-color: var(--dark-grey);
-  padding: var(--padding-10);
+  padding: var(--space-10);
   border-radius: var(--border-20);
-  /* margin-bottom: var(--margin-30); */
+  /* margin-bottom: var(--space-30); */
 }
 
 .tag-img {
-  margin-right: var(--margin-10);
+  margin-right: var(--space-10);
 }
 
 .tag-info {
   display: flex;
   flex-direction: column;
   font-size: var(--font-14);
-  margin-right: var(--margin-48);
+  margin-right: var(--space-48);
 }
 
 .tag-info__title {
@@ -31,7 +31,7 @@
 }
 
 .arrow-icon {
-  padding: var(--padding-14);
+  padding: var(--space-14);
   background-color: var(--regular-grey);
   border-radius: var(--border-10);
 }

@@ -14,7 +14,7 @@ aside {
   background-color: var(--dark-blue);
   width: 300px;
   height: 100vh;
-  padding: var(--padding-10);
+  padding: var(--space-10);
 }
 
 /* HEADER */
@@ -23,20 +23,20 @@ header {
   display: flex;
   align-items: center;
   background-color: var(--dark-grey);
-  padding: var(--padding-10);
+  padding: var(--space-10);
   border-radius: var(--border-20);
-  margin-bottom: var(--margin-30);
+  margin-bottom: var(--space-30);
 }
 
 .img-header {
-  margin-right: var(--margin-10);
+  margin-right: var(--space-10);
 }
 
 .info-header {
   display: flex;
   flex-direction: column;
   font-size: var(--font-14);
-  margin-right: var(--margin-48);
+  margin-right: var(--space-48);
 }
 
 .info-header__title {
@@ -44,7 +44,7 @@ header {
 }
 
 .arrow-icon {
-  padding: var(--padding-14);
+  padding: var(--space-14);
   background-color: var(--regular-grey);
   border-radius: var(--border-10);
 }
@@ -90,6 +90,6 @@ footer {
   display: flex;
   align-items: center;
   background-color: var(--dark-grey);
-  padding: var(--padding-10);
+  padding: var(--space-10);
   border-radius: var(--border-20);
 }

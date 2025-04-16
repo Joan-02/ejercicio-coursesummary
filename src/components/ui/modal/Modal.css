@@ -1,0 +1,51 @@
+.modal-overlay {
+  position: fixed; /* Se posiciona relativo a la ventana del navegador */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; /* Cubre toda la pantalla */
+  background-color: var(--dark-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--white);
+  border-radius: var(--border-20);
+  padding: var(--space-52) var(--space-28);
+  gap: var(--space-30);
+}
+
+.title {
+  font-family: var(--font-family);
+  font-weight: var(--font-bold);
+  font-size: var(--font-30);
+  margin: var(--space-0);
+  color: var(--dark-blue);
+}
+
+.text {
+  font-family: var(--font-family);
+  font-weight: var(--font-regular);
+  font-size: var(--font-18);
+  color: var(--purple);
+  margin: var(--space-0);
+  text-align: center;
+}
+
+.input-modal {
+  width: 800px;
+  height: 200px;
+  border: 1px solid hsla(0, 0%, 90%, 1);
+  border-radius: 2px;
+}
+
+.buttons-container {
+  display: flex;
+  gap: var(--space-20);
+}

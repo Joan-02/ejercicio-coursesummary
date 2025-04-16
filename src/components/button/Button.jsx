@@ -10,5 +10,5 @@ export const Button = ({ text, variant = "primary" }) => {
     buttonClass = "btn";
   }
 
-  return <button className={`btn ${buttonClass()}`}>{text}</button>;
+  return <button className={`btn ${buttonClass}`}>{text}</button>;
 };

@@ -6,6 +6,7 @@
   --dark-grey: #142030;
   --regular-grey: #2b3645;
   --white: #ffffff;
+  --purple: hsla(257, 65%, 51%, 1);
 
   /* ----> Font */
 
@@ -25,18 +26,15 @@
   --border-10: 10px;
 
   /* -----> Space */
+  --space-0: 0px;
   --space-10: 10px;
   --space-12: 12px;
+  --space-14: 14px;
+  --space-20: 20px;
+  --space-28: 28px;
+  --space-30: 30px;
+  --space-48: 48px;
   --space-52: 52px;
-
-  /* ----> Padding */
-  --padding-10: 10px;
-  --padding-14: 14px;
-
-  /* -----> Margin */
-  --margin-10: 10px;
-  --margin-30: 30px;
-  --margin-48: 48px;
 }
 
 .container {
